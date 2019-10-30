@@ -1,0 +1,17 @@
+Symbols:
+Myth
+Immor
+Mamm
+Horn
+Magic
+Compounds:
+1 Myth imp Immor true
+2 null not Myth false
+3 null not Immor false
+4 Mamm and 3 false
+5 2 imp 4 true
+6 Immor or Mamm false
+7 6 imp Horn true
+8 Horn imp Magic true
+Target:
+Horn
