@@ -1,0 +1,19 @@
+Symbols:
+P12
+B11
+P11
+P21
+B21
+P22
+P31
+Compounds:
+1 null not P11 true
+2 P12 or P21 false
+3 B11 bicond 2 true
+4 P11 or P22 false
+5 P31 or 4 false
+6 B21 bicond 5 true
+7 null not B11 true
+8 null null B21 true
+Target:
+B21

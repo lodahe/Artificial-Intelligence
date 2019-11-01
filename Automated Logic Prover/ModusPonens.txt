@@ -1,0 +1,8 @@
+Symbols:
+P
+Q
+Compounds:
+1 null null P true
+2 P imp Q true
+Target:
+Q

@@ -1,0 +1,48 @@
+Symbols:
+A
+B
+C
+D
+E
+F
+G
+H
+X
+Y
+Z
+W
+Compounds:
+1 A bicond X true
+2 Y imp B true
+3 Z imp B true
+4 Y or Z false
+5 null not B false
+6 4 or 5 true
+7 null not A false
+8 C or 7 false
+9 8 or 5 true
+10 C imp A true
+11 C imp B true
+12 X imp D false
+13 Y imp 12 true
+14 D imp X true
+15 D imp Y true
+16 X imp E false
+17 Z imp 16 true
+18 E imp X true
+19 E imp Z true
+20 F imp D false
+21 20 or E true
+22 E imp F true
+23 D imp F true
+24 F imp G true
+25 G or C true
+26 C imp F false
+27 G imp 26 true
+28 G imp H true
+29 G imp A true
+30 X or Y false
+31 Z or W false
+32 30 or 31 true
+Target:
+W
